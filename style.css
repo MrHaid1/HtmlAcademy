@@ -1,10 +1,5 @@
-* {
-  box-sizing: border-box;
-  color: #000000;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-decoration: none; }
+.menu-nav__item {
+  font-family: 'Roboto', sans-serif; }
 
 .main-tittle {
   font-family: 'Playfair Display', serif; }
@@ -12,23 +7,47 @@
 .container, .main-tittle {
   margin: 0 auto; }
 
+* {
+  box-sizing: border-box;
+  color: #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
 .container {
-  max-width: 1170px; }
+  max-width: 100%; }
 
 .main-tittle {
   font-size: 35px;
   font-style: normal;
   font-weight: 900;
   letter-spacing: 1px;
-  line-height: 47px; }
+  line-height: 47px;
+  max-width: 28.5%;
+  padding-bottom: 3.512%;
+  padding-top: 4.1%; }
 
-.menu {
+.menu-nav__list {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 3.2%;
+  margin-left: 11.3%;
+  margin-right: 9.3%; }
+
+.menu-nav__item {
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  margin-right: 5%; }
+  .menu-nav__item:hover {
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); }
 
 .hotel {
-  height: 464px;
   background: url("img/bg-main.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  min-height: 464px; }
 
 /*# sourceMappingURL=style.css.map */
