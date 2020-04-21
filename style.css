@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  color: #000000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.main-tittle {
+  font-family: 'Playfair Display', serif; }
+
+.container, .main-tittle {
+  margin: 0 auto; }
+
+.container {
+  max-width: 1170px; }
+
+.main-tittle {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 47px; }
+
+.menu {
+  display: flex;
+  justify-content: space-around; }
+
+.hotel {
+  height: 464px;
+  background: url("img/bg-main.jpg") no-repeat center center;
+  background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */
