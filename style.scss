@@ -32,20 +32,20 @@ $max-width: 1440px;
 
 .main-tittle {
   @extend %play-font;
-  @extend %margin;
+  display: flex;
   font-size: 35px;
   font-style: normal;
   font-weight: 900;
+  justify-content: center;
   letter-spacing: 1px;
   line-height: 47px;
-  max-width: 28.5%;
   padding-bottom: 3.512%;
   padding-top: 4.1%;
 }
 
 .menu-nav__list {
   display: flex;
- justify-content: space-around;
+  justify-content: space-around;
   margin-bottom: 3.2%;
   margin-left: 11.3%;
   margin-right: 9.3%;
@@ -68,9 +68,126 @@ $max-width: 1440px;
 .hotel {
   background: url('img/bg-main.jpg') no-repeat center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
   min-height: 464px;
 }
 
+.gallery-img {
+  border: 1px solid $accent;
+  border-radius: 50%;
+  background-color: $accent;
+  margin-top: 3.1%;
+  padding: 15px;
+  width: 55px;
+  height: 55px;
+}
+
+.hotel-tittle {
+  @extend %roboto-font;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 2.3% 0 9.6%;
+}
+
+.hotel-text {
+ @extend %roboto-font;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 35%;
+  min-height: 64px;
+  vertical-align: top;
+  text-indent: 14px;
+  margin-bottom: 3.5%;
+}
+
+.tittle {
+  @extend %roboto-font;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  margin-left: 9.5%;
+  margin-right: 9.5%;
+  margin-bottom: 6%;
+
+}
+
+.overview__item {
+  display: flex;
+  flex-direction: column;
+  width: 34.6%;
+}
+
+.overview__item:nth-child(2) {
+  margin-right: 29px;
+  margin-left: 29px;
+}
+
+.overview__tittle {
+  @extend %play-font;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  display: inline-block;
+  max-width: 100%;
+  margin:20px 0 11px;
+}
+
+.overview__image {
+  max-width: 100%
+}
+
+.overview__text {
+  @extend %roboto-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  max-width: 100%;
+  display: inline-block;
+}
 
 
+@media screen and (max-width: 1024px) {
+  .menu-nav__list {
+    max-width: 70%;
+  }
 
+  .menu-nav__item {
+    margin-right: 1.5%;
+  }
+
+  .hotel-text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .overview {
+    flex-direction: column;
+  }
+}
