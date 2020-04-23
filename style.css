@@ -278,7 +278,7 @@
     transform: rotate(0.1deg);
     position: absolute;
     bottom: 1px;
-    left: 168px; } }
+    left: 36%; } }
 @media screen and (max-width: 768px) {
   .menu-nav__list {
     display: flex;
@@ -320,7 +320,7 @@
     transform: rotate(0.1deg);
     position: absolute;
     bottom: 1px;
-    left: 135px; } }
+    left: 36%; } }
 @media screen and (max-width: 425px) {
   .overview {
     display: flex;
@@ -398,6 +398,6 @@
     transform: rotate(0.1deg);
     position: absolute;
     bottom: -5px;
-    left: 88px; } }
+    left: 28%; } }
 
 /*# sourceMappingURL=style.css.map */
