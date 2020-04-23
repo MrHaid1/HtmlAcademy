@@ -365,7 +365,7 @@ $footer-gray: #575757;
     width: 70%;
   }
   .info-item__tittle {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 31px;
   }
 
@@ -397,7 +397,7 @@ $footer-gray: #575757;
     transform: rotate(0.1deg);
     position: absolute;
     bottom: 1px;
-    left: 36%;
+    left: 33%;
   }
 }
 
@@ -441,6 +441,10 @@ $footer-gray: #575757;
     margin-left: 4%;
     max-width: 90%;
     margin-right: 4%;
+  }
+
+  .overview__tittle{
+    font-size: 20px;
   }
 }
 

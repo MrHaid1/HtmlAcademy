@@ -295,7 +295,7 @@
     width: 70%; }
 
   .info-item__tittle {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 31px; }
 
   .info-item {
@@ -320,7 +320,7 @@
     transform: rotate(0.1deg);
     position: absolute;
     bottom: 1px;
-    left: 36%; } }
+    left: 33%; } }
 @media screen and (max-width: 425px) {
   .overview {
     display: flex;
@@ -356,7 +356,10 @@
     justify-content: space-between;
     margin-left: 4%;
     max-width: 90%;
-    margin-right: 4%; } }
+    margin-right: 4%; }
+
+  .overview__tittle {
+    font-size: 20px; } }
 @media screen and (max-width: 340px) {
   .main-tittle {
     font-size: 30px; }
